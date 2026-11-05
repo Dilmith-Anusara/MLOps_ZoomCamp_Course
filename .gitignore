@@ -1,0 +1,30 @@
+# Course data (large, re-downloadable)
+Data/*.parquet
+*.parquet
+*.csv.gz
+
+# MLflow / experiment tracking
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Prefect / Mage / orchestration
+.prefect/
+.mage_data/
+
+# Models and artifacts
+*.bin
+*.pkl
+models/
+
+# Secrets and env
+.env
+*.pem
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
